@@ -4,34 +4,12 @@
 用二分查找玩猜数字游戏，使用 递归 与 二分查找 两种算法
 
 #### 软件架构
-软件架构说明
+需要python环境支撑，但无需第三方库
 
 
 #### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+直接扔到python环境里执行就完事了，关于python环境安装，请自行百度
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+变量t 是用于定义每次查找的间隔时间，方便观察程序的行为
+变量min1 和 变量max1 用于定义 猜数字游戏 的 目标数字范围，min1=起始值，max1=结束值，均为int类型
